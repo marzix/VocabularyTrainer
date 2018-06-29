@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E00ED5720903ED10044CA1B /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E00ED5620903ED10044CA1B /* Word.swift */; };
+		9E00ED592090F6C90044CA1B /* WordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E00ED582090F6C90044CA1B /* WordTableViewCell.swift */; };
+		9E00ED5B20910FE70044CA1B /* WordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E00ED5A20910FE70044CA1B /* WordTableViewController.swift */; };
+		9E00ED5D2091637C0044CA1B /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E00ED5C2091637C0044CA1B /* MainMenuViewController.swift */; };
+		9E00ED5F2091709C0044CA1B /* PopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E00ED5E2091709C0044CA1B /* PopOverViewController.swift */; };
+		9E00ED61209284E90044CA1B /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E00ED60209284E90044CA1B /* AddItemViewController.swift */; };
+		9E00ED63209381E40044CA1B /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E00ED62209381E30044CA1B /* Dictionary.swift */; };
+		9E00ED65209416CA0044CA1B /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E00ED64209416CA0044CA1B /* GameOverViewController.swift */; };
 		9E691A80204FB13F00B43509 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E691A7F204FB13F00B43509 /* AppDelegate.swift */; };
-		9E691A82204FB13F00B43509 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E691A81204FB13F00B43509 /* ViewController.swift */; };
+		9E691A82204FB13F00B43509 /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E691A81204FB13F00B43509 /* TrainingViewController.swift */; };
 		9E691A85204FB13F00B43509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E691A83204FB13F00B43509 /* Main.storyboard */; };
 		9E691A87204FB13F00B43509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E691A86204FB13F00B43509 /* Assets.xcassets */; };
 		9E691A8A204FB13F00B43509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E691A88204FB13F00B43509 /* LaunchScreen.storyboard */; };
@@ -26,9 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E00ED5620903ED10044CA1B /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		9E00ED582090F6C90044CA1B /* WordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTableViewCell.swift; sourceTree = "<group>"; };
+		9E00ED5A20910FE70044CA1B /* WordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTableViewController.swift; sourceTree = "<group>"; };
+		9E00ED5C2091637C0044CA1B /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		9E00ED5E2091709C0044CA1B /* PopOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverViewController.swift; sourceTree = "<group>"; };
+		9E00ED60209284E90044CA1B /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		9E00ED62209381E30044CA1B /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		9E00ED64209416CA0044CA1B /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
 		9E691A7C204FB13F00B43509 /* Vocabulary Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vocabulary Trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E691A7F204FB13F00B43509 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E691A81204FB13F00B43509 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E691A81204FB13F00B43509 /* TrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
 		9E691A84204FB13F00B43509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E691A86204FB13F00B43509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E691A89204FB13F00B43509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,8 +94,16 @@
 			isa = PBXGroup;
 			children = (
 				9E691A7F204FB13F00B43509 /* AppDelegate.swift */,
-				9E691A81204FB13F00B43509 /* ViewController.swift */,
+				9E691A81204FB13F00B43509 /* TrainingViewController.swift */,
+				9E00ED5620903ED10044CA1B /* Word.swift */,
 				9E691A83204FB13F00B43509 /* Main.storyboard */,
+				9E00ED64209416CA0044CA1B /* GameOverViewController.swift */,
+				9E00ED60209284E90044CA1B /* AddItemViewController.swift */,
+				9E00ED5E2091709C0044CA1B /* PopOverViewController.swift */,
+				9E00ED5A20910FE70044CA1B /* WordTableViewController.swift */,
+				9E00ED5C2091637C0044CA1B /* MainMenuViewController.swift */,
+				9E00ED62209381E30044CA1B /* Dictionary.swift */,
+				9E00ED582090F6C90044CA1B /* WordTableViewCell.swift */,
 				9E691A86204FB13F00B43509 /* Assets.xcassets */,
 				9E691A88204FB13F00B43509 /* LaunchScreen.storyboard */,
 				9E691A8B204FB13F00B43509 /* Info.plist */,
@@ -141,7 +165,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Marzena Kruszy";
 				TargetAttributes = {
 					9E691A7B204FB13F00B43509 = {
@@ -199,8 +223,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E691A82204FB13F00B43509 /* ViewController.swift in Sources */,
+				9E00ED5D2091637C0044CA1B /* MainMenuViewController.swift in Sources */,
+				9E00ED5B20910FE70044CA1B /* WordTableViewController.swift in Sources */,
+				9E00ED5F2091709C0044CA1B /* PopOverViewController.swift in Sources */,
+				9E691A82204FB13F00B43509 /* TrainingViewController.swift in Sources */,
+				9E00ED65209416CA0044CA1B /* GameOverViewController.swift in Sources */,
+				9E00ED592090F6C90044CA1B /* WordTableViewCell.swift in Sources */,
+				9E00ED63209381E40044CA1B /* Dictionary.swift in Sources */,
+				9E00ED61209284E90044CA1B /* AddItemViewController.swift in Sources */,
 				9E691A80204FB13F00B43509 /* AppDelegate.swift in Sources */,
+				9E00ED5720903ED10044CA1B /* Word.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +288,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -263,6 +296,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -313,6 +347,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -320,6 +355,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
